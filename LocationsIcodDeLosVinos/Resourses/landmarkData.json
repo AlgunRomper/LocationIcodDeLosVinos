@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Parque del Drago",
+        "category": "Park",
+        "city": "Icod de los vinos",
+        "island": "Tenerife",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -16.722136,
+            "latitude": 28.366131
+        },
+        "description": "Drago Park (Spanish: Parque del Drago) is a park and one of the main visitor attractions in Icod de los Vinos, Tenerife. Created at the turn of the millennium, it contains El Drago Milenario, a dragon tree thought to be around 1,000 years old, as well as a variety of other native plants.",
+        "imageName": "parquedeldrago"
+    },
+    {
+        "name": "Mariposario del Drago",
+        "category": "Museum",
+        "city": "Icod de los vinos",
+        "island": "Tenerife",
+        "id": 1002,
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -16.722184,
+            "latitude": 28.367301
+        },
+        "description": "Stroll among more than 800 exotic butterflies from around the world that fly in freedom. You can see how they are born, how they reproduce and enjoy learning many things about these wonderful insects.",
+        "imageName": "mariposario"
+    },
+    {
+        "name": "Casa del platano",
+        "category": "Museum",
+        "city": "Icod de los vinos",
+        "island": "Tenerife",
+        "id": 1003,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -16.721467,
+            "latitude": 28.367722
+        },
+        "description": "Find out why bananas from the Canary Islands are prized all over Spain. Visit a plantation here in Tenerife and taste the real thing. At Casa del Platano, you'll learn all about their cultivation, the different varieties and get to try derived products, too. The kids will love it.",
+        "imageName": "casadelplatano"
+    }
+]

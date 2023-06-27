@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B62CCEB42A3DAFDE007BF2A3 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62CCEB32A3DAFDE007BF2A3 /* CategoryRow.swift */; };
+		B652525C2A4051B5004144E9 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652525B2A4051B5004144E9 /* CategoryItem.swift */; };
+		B652525F2A41977E004144E9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652525E2A41977E004144E9 /* Profile.swift */; };
+		B65252612A41A04D004144E9 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65252602A41A04D004144E9 /* ProfileHost.swift */; };
+		B65252632A41A0AD004144E9 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65252622A41A0AD004144E9 /* ProfileSummary.swift */; };
+		B65252652A41A65C004144E9 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65252642A41A65C004144E9 /* ProfileEditor.swift */; };
+		B652526A2A41B95B004144E9 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65252692A41B95B004144E9 /* FeatureCard.swift */; };
+		B652526C2A41BB0D004144E9 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652526B2A41BB0D004144E9 /* PageViewController.swift */; };
+		B652526E2A41C599004144E9 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652526D2A41C599004144E9 /* PageView.swift */; };
+		B65252702A4306E7004144E9 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652526F2A4306E7004144E9 /* PageControl.swift */; };
+		B66531C82A3C792C0086D23B /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66531C72A3C792C0086D23B /* LocationDetail.swift */; };
+		B66531CA2A3CA0D00086D23B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66531C92A3CA0D00086D23B /* FavoriteButton.swift */; };
+		B688C0482A39D58500741FC7 /* LocationsIcodDeLosVinosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B688C0472A39D58500741FC7 /* LocationsIcodDeLosVinosApp.swift */; };
+		B688C04A2A39D58500741FC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B688C0492A39D58500741FC7 /* ContentView.swift */; };
+		B688C04C2A39D58900741FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B688C04B2A39D58900741FC7 /* Assets.xcassets */; };
+		B688C04F2A39D58900741FC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B688C04E2A39D58900741FC7 /* Preview Assets.xcassets */; };
+		B688C0562A39E00700741FC7 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B688C0552A39E00700741FC7 /* CircleImage.swift */; };
+		B688C0582A3A08AF00741FC7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B688C0572A3A08AF00741FC7 /* MapView.swift */; };
+		B6B105FC2A3C6838002536E6 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = B6B105FB2A3C6838002536E6 /* landmarkData.json */; };
+		B6B105FE2A3C6860002536E6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B105FD2A3C6860002536E6 /* Location.swift */; };
+		B6B106002A3C6F51002536E6 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B105FF2A3C6F51002536E6 /* ModelData.swift */; };
+		B6B106052A3C7494002536E6 /* LocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B106042A3C7494002536E6 /* LocationRow.swift */; };
+		B6B106072A3C76CF002536E6 /* LocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B106062A3C76CF002536E6 /* LocationList.swift */; };
+		B6E1A63E2A3DAB1B00E11EE3 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E1A63D2A3DAB1B00E11EE3 /* CategoryHome.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B62CCEB32A3DAFDE007BF2A3 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		B652525B2A4051B5004144E9 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		B652525E2A41977E004144E9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B65252602A41A04D004144E9 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		B65252622A41A0AD004144E9 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		B65252642A41A65C004144E9 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		B65252692A41B95B004144E9 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		B652526B2A41BB0D004144E9 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		B652526D2A41C599004144E9 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		B652526F2A4306E7004144E9 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		B66531C72A3C792C0086D23B /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
+		B66531C92A3CA0D00086D23B /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		B688C0442A39D58500741FC7 /* LocationsIcodDeLosVinos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationsIcodDeLosVinos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B688C0472A39D58500741FC7 /* LocationsIcodDeLosVinosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsIcodDeLosVinosApp.swift; sourceTree = "<group>"; };
+		B688C0492A39D58500741FC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B688C04B2A39D58900741FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B688C04E2A39D58900741FC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B688C0552A39E00700741FC7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B688C0572A3A08AF00741FC7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B6B105FB2A3C6838002536E6 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		B6B105FD2A3C6860002536E6 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B6B105FF2A3C6F51002536E6 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		B6B106042A3C7494002536E6 /* LocationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRow.swift; sourceTree = "<group>"; };
+		B6B106062A3C76CF002536E6 /* LocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationList.swift; sourceTree = "<group>"; };
+		B6E1A63D2A3DAB1B00E11EE3 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B688C0412A39D58500741FC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B652525D2A41976D004144E9 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B652525E2A41977E004144E9 /* Profile.swift */,
+				B65252602A41A04D004144E9 /* ProfileHost.swift */,
+				B65252622A41A0AD004144E9 /* ProfileSummary.swift */,
+				B65252642A41A65C004144E9 /* ProfileEditor.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		B65252662A41AF4C004144E9 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				B652526B2A41BB0D004144E9 /* PageViewController.swift */,
+				B652526D2A41C599004144E9 /* PageView.swift */,
+				B652526F2A4306E7004144E9 /* PageControl.swift */,
+				B65252692A41B95B004144E9 /* FeatureCard.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		B66531CB2A3CA2ED0086D23B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B688C0552A39E00700741FC7 /* CircleImage.swift */,
+				B688C0572A3A08AF00741FC7 /* MapView.swift */,
+				B66531C92A3CA0D00086D23B /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B66531CC2A3CA30F0086D23B /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				B6B106062A3C76CF002536E6 /* LocationList.swift */,
+				B6B106042A3C7494002536E6 /* LocationRow.swift */,
+				B66531C72A3C792C0086D23B /* LocationDetail.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		B688C03B2A39D58400741FC7 = {
+			isa = PBXGroup;
+			children = (
+				B688C0462A39D58500741FC7 /* LocationsIcodDeLosVinos */,
+				B688C0452A39D58500741FC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B688C0452A39D58500741FC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B688C0442A39D58500741FC7 /* LocationsIcodDeLosVinos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B688C0462A39D58500741FC7 /* LocationsIcodDeLosVinos */ = {
+			isa = PBXGroup;
+			children = (
+				B688C0472A39D58500741FC7 /* LocationsIcodDeLosVinosApp.swift */,
+				B652525D2A41976D004144E9 /* User */,
+				B6E1A63C2A3DAAEF00E11EE3 /* Categories */,
+				B6B106032A3C7409002536E6 /* Resourses */,
+				B6B106022A3C73DF002536E6 /* Views */,
+				B6B106012A3C73D0002536E6 /* Model */,
+				B688C04B2A39D58900741FC7 /* Assets.xcassets */,
+				B688C04D2A39D58900741FC7 /* Preview Content */,
+			);
+			path = LocationsIcodDeLosVinos;
+			sourceTree = "<group>";
+		};
+		B688C04D2A39D58900741FC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B688C04E2A39D58900741FC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6B106012A3C73D0002536E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6B105FF2A3C6F51002536E6 /* ModelData.swift */,
+				B6B105FD2A3C6860002536E6 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6B106022A3C73DF002536E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B688C0492A39D58500741FC7 /* ContentView.swift */,
+				B66531CC2A3CA30F0086D23B /* Location */,
+				B66531CB2A3CA2ED0086D23B /* Helpers */,
+				B65252662A41AF4C004144E9 /* PageView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6B106032A3C7409002536E6 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				B6B105FB2A3C6838002536E6 /* landmarkData.json */,
+			);
+			name = Resourses;
+			path = LocationsIcodDeLosVinos/Resourses;
+			sourceTree = SOURCE_ROOT;
+		};
+		B6E1A63C2A3DAAEF00E11EE3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B6E1A63D2A3DAB1B00E11EE3 /* CategoryHome.swift */,
+				B62CCEB32A3DAFDE007BF2A3 /* CategoryRow.swift */,
+				B652525B2A4051B5004144E9 /* CategoryItem.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B688C0432A39D58500741FC7 /* LocationsIcodDeLosVinos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B688C0522A39D58900741FC7 /* Build configuration list for PBXNativeTarget "LocationsIcodDeLosVinos" */;
+			buildPhases = (
+				B688C0402A39D58500741FC7 /* Sources */,
+				B688C0412A39D58500741FC7 /* Frameworks */,
+				B688C0422A39D58500741FC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationsIcodDeLosVinos;
+			productName = LocationsIcodDeLosVinos;
+			productReference = B688C0442A39D58500741FC7 /* LocationsIcodDeLosVinos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B688C03C2A39D58400741FC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B688C0432A39D58500741FC7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B688C03F2A39D58400741FC7 /* Build configuration list for PBXProject "LocationsIcodDeLosVinos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				ru,
+			);
+			mainGroup = B688C03B2A39D58400741FC7;
+			productRefGroup = B688C0452A39D58500741FC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B688C0432A39D58500741FC7 /* LocationsIcodDeLosVinos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B688C0422A39D58500741FC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B688C04F2A39D58900741FC7 /* Preview Assets.xcassets in Resources */,
+				B688C04C2A39D58900741FC7 /* Assets.xcassets in Resources */,
+				B6B105FC2A3C6838002536E6 /* landmarkData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B688C0402A39D58500741FC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B688C04A2A39D58500741FC7 /* ContentView.swift in Sources */,
+				B688C0582A3A08AF00741FC7 /* MapView.swift in Sources */,
+				B6B106072A3C76CF002536E6 /* LocationList.swift in Sources */,
+				B65252612A41A04D004144E9 /* ProfileHost.swift in Sources */,
+				B652525F2A41977E004144E9 /* Profile.swift in Sources */,
+				B652526E2A41C599004144E9 /* PageView.swift in Sources */,
+				B66531CA2A3CA0D00086D23B /* FavoriteButton.swift in Sources */,
+				B6E1A63E2A3DAB1B00E11EE3 /* CategoryHome.swift in Sources */,
+				B65252702A4306E7004144E9 /* PageControl.swift in Sources */,
+				B66531C82A3C792C0086D23B /* LocationDetail.swift in Sources */,
+				B6B105FE2A3C6860002536E6 /* Location.swift in Sources */,
+				B6B106002A3C6F51002536E6 /* ModelData.swift in Sources */,
+				B652525C2A4051B5004144E9 /* CategoryItem.swift in Sources */,
+				B6B106052A3C7494002536E6 /* LocationRow.swift in Sources */,
+				B688C0482A39D58500741FC7 /* LocationsIcodDeLosVinosApp.swift in Sources */,
+				B62CCEB42A3DAFDE007BF2A3 /* CategoryRow.swift in Sources */,
+				B652526C2A41BB0D004144E9 /* PageViewController.swift in Sources */,
+				B65252652A41A65C004144E9 /* ProfileEditor.swift in Sources */,
+				B652526A2A41B95B004144E9 /* FeatureCard.swift in Sources */,
+				B65252632A41A0AD004144E9 /* ProfileSummary.swift in Sources */,
+				B688C0562A39E00700741FC7 /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B688C0502A39D58900741FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B688C0512A39D58900741FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B688C0532A39D58900741FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LocationsIcodDeLosVinos/Preview Content\"";
+				DEVELOPMENT_TEAM = SSSY3K9A2F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stavrova-Ekaterina.LocationsIcodDeLosVinos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B688C0542A39D58900741FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LocationsIcodDeLosVinos/Preview Content\"";
+				DEVELOPMENT_TEAM = SSSY3K9A2F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stavrova-Ekaterina.LocationsIcodDeLosVinos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B688C03F2A39D58400741FC7 /* Build configuration list for PBXProject "LocationsIcodDeLosVinos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B688C0502A39D58900741FC7 /* Debug */,
+				B688C0512A39D58900741FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B688C0522A39D58900741FC7 /* Build configuration list for PBXNativeTarget "LocationsIcodDeLosVinos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B688C0532A39D58900741FC7 /* Debug */,
+				B688C0542A39D58900741FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B688C03C2A39D58400741FC7 /* Project object */;
+}
