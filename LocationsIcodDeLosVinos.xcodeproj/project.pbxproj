@@ -17,6 +17,7 @@
 		B652526C2A41BB0D004144E9 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652526B2A41BB0D004144E9 /* PageViewController.swift */; };
 		B652526E2A41C599004144E9 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652526D2A41C599004144E9 /* PageView.swift */; };
 		B65252702A4306E7004144E9 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652526F2A4306E7004144E9 /* PageControl.swift */; };
+		B65BCA412AA8783A00EA8E99 /* CoreDataLocations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B65BCA3F2AA8783A00EA8E99 /* CoreDataLocations.xcdatamodeld */; };
 		B66531C82A3C792C0086D23B /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66531C72A3C792C0086D23B /* LocationDetail.swift */; };
 		B66531CA2A3CA0D00086D23B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66531C92A3CA0D00086D23B /* FavoriteButton.swift */; };
 		B688C0482A39D58500741FC7 /* LocationsIcodDeLosVinosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B688C0472A39D58500741FC7 /* LocationsIcodDeLosVinosApp.swift */; };
@@ -44,6 +45,7 @@
 		B652526B2A41BB0D004144E9 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		B652526D2A41C599004144E9 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		B652526F2A4306E7004144E9 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		B65BCA402AA8783A00EA8E99 /* CoreDataLocations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataLocations.xcdatamodel; sourceTree = "<group>"; };
 		B66531C72A3C792C0086D23B /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 		B66531C92A3CA0D00086D23B /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		B688C0442A39D58500741FC7 /* LocationsIcodDeLosVinos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationsIcodDeLosVinos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,22 @@
 			path = PageView;
 			sourceTree = "<group>";
 		};
+		B65BCA422AA8784200EA8E99 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B65BCA3F2AA8783A00EA8E99 /* CoreDataLocations.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B65BCA432AA8815900EA8E99 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6B105FF2A3C6F51002536E6 /* ModelData.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B66531CB2A3CA2ED0086D23B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,13 +152,13 @@
 			isa = PBXGroup;
 			children = (
 				B688C0472A39D58500741FC7 /* LocationsIcodDeLosVinosApp.swift */,
-				B652525D2A41976D004144E9 /* User */,
-				B6E1A63C2A3DAAEF00E11EE3 /* Categories */,
-				B6B106032A3C7409002536E6 /* Resourses */,
-				B6B106022A3C73DF002536E6 /* Views */,
 				B6B106012A3C73D0002536E6 /* Model */,
+				B65BCA432AA8815900EA8E99 /* ViewModel */,
+				B6B106022A3C73DF002536E6 /* Views */,
+				B6B106032A3C7409002536E6 /* Resourses */,
 				B688C04B2A39D58900741FC7 /* Assets.xcassets */,
 				B688C04D2A39D58900741FC7 /* Preview Content */,
+				B65BCA422AA8784200EA8E99 /* CoreData */,
 			);
 			path = LocationsIcodDeLosVinos;
 			sourceTree = "<group>";
@@ -156,7 +174,6 @@
 		B6B106012A3C73D0002536E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B6B105FF2A3C6F51002536E6 /* ModelData.swift */,
 				B6B105FD2A3C6860002536E6 /* Location.swift */,
 			);
 			path = Model;
@@ -169,6 +186,8 @@
 				B66531CC2A3CA30F0086D23B /* Location */,
 				B66531CB2A3CA2ED0086D23B /* Helpers */,
 				B65252662A41AF4C004144E9 /* PageView */,
+				B6E1A63C2A3DAAEF00E11EE3 /* Categories */,
+				B652525D2A41976D004144E9 /* User */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -272,6 +291,7 @@
 				B652525F2A41977E004144E9 /* Profile.swift in Sources */,
 				B652526E2A41C599004144E9 /* PageView.swift in Sources */,
 				B66531CA2A3CA0D00086D23B /* FavoriteButton.swift in Sources */,
+				B65BCA412AA8783A00EA8E99 /* CoreDataLocations.xcdatamodeld in Sources */,
 				B6E1A63E2A3DAB1B00E11EE3 /* CategoryHome.swift in Sources */,
 				B65252702A4306E7004144E9 /* PageControl.swift in Sources */,
 				B66531C82A3C792C0086D23B /* LocationDetail.swift in Sources */,
@@ -486,6 +506,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B65BCA3F2AA8783A00EA8E99 /* CoreDataLocations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B65BCA402AA8783A00EA8E99 /* CoreDataLocations.xcdatamodel */,
+			);
+			currentVersion = B65BCA402AA8783A00EA8E99 /* CoreDataLocations.xcdatamodel */;
+			path = CoreDataLocations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B688C03C2A39D58400741FC7 /* Project object */;
 }
